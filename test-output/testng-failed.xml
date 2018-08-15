@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="getcall(failed)" parallel="tests">
+    <classes>
+      <class name="com.scp.qa.tests.GetApiTest">
+        <methods>
+          <include name="getAPITestWithoutHeaders"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.scp.qa.tests.GetApiTest -->
+    </classes>
+  </test> <!-- getcall(failed) -->
+</suite> <!-- Failed suite [Suite] -->
