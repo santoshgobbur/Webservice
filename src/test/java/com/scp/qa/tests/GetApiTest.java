@@ -99,6 +99,7 @@ public class GetApiTest extends TestBase {
 			System.out.println(allHeaders.get(headerMap));
 			System.out.println(allHeaders.get("Transfer-Encoding"));
 		    System.out.println("Header array -->"+allHeaders);
-		  
+		    
+		    System.out.println("Test case executed");
 	   }
 }
